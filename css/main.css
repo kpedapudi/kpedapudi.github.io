@@ -2,3 +2,30 @@
 	box-shadow: 0px 0px 0px;
 	border:0;
 }
+.section{
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+}
+.bio{
+    margin-top: 50px;  background-color: salmon;
+    /*background-image: url('../img/bio.jpg');*/
+}
+.likes{
+    background-color: blue;
+    /*background-image: url('../img/likes.jpg');*/
+}
+.contact{
+    background-color: green;
+    /*background-image: url('../img/contact.jpg');*/
+}
+.navbar-brand img{
+    height: 20px; 
+}
+a:hover{
+    cursor: pointer;
+}
+.navbar-default{
+    background: #000;
+}
