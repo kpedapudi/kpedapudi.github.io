@@ -39,7 +39,11 @@ function getPktAccTkn () {
     $.ajax({
             url: 'https://getpocket.com/v3/oauth/request',
             type: 'post',
-            dataType: 'json',
+            dataType: 'jsonp',
+            headers: {          
+                 "Accept" : "X-Accept",         
+                "Content-Type": "application/json"   
+            },
             data: { consumer_key : "25535-87e3dd30d58a2acf11a6315d", redirect_uri : "pocketapp1234:authorizationFinished"  },
             success: function (data) {
                 alert(data);
