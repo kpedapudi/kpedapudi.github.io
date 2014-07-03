@@ -1,51 +1,29 @@
-.no-box-bor{
-	box-shadow: 0px 0px 0px;
-	border:0;
+html, body {
+    height: 100% !important;
+    font-family: 'Lancelot', cursive;
+    font-size: 22px;
+    line-height: 27px;
+    color: #9e9e9e;
+    text-shadow: 0 1px 2px rgba(0,0,0,.2);
+    background-color: #191970;
 }
-.section{
-    color: white;
-    background-position: center;
-    background-repeat: no-repeat no-repeat;
-    background-size: cover;
+.container{
+     position: relative;
+     height: 100%;
+     padding: 20px;
 }
-.bio{
-    margin-top: 50px;  background-color: salmon;
-    /*background-image: url('../img/bio.jpg');*/
+footer{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
 }
-.interests{
-    background-color: blue;
-    /*background-image: url('../img/interests.jpg');*/
+article{
+    text-align: center;
+    font-size: 3em;
+    margin: 150px 0;
+    line-height: 3em;
 }
-.contact{
-    background-color: green;
-    /*background-image: url('../img/contact.jpg');*/
-}
-.navbar-brand img{
-    height: 20px; 
-}
-a:hover{
-    cursor: pointer;
-}
-.navbar-default{
-    background: rgb(76,76,76); /* Old browsers */
-    /*background: -moz-linear-gradient(top,  rgba(76,76,76,1) 0%, rgba(89,89,89,1) 8%, rgba(102,102,102,1) 22%, rgba(71,71,71,1) 30%, rgba(44,44,44,1) 40%, rgba(0,0,0,1) 49%, rgba(17,17,17,1) 66%, rgba(43,43,43,1) 69%, rgba(43,43,43,1) 69%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%); /* FF3.6+ */
-    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(76,76,76,1)), color-stop(8%,rgba(89,89,89,1)), color-stop(22%,rgba(102,102,102,1)), color-stop(30%,rgba(71,71,71,1)), color-stop(40%,rgba(44,44,44,1)), color-stop(49%,rgba(0,0,0,1)), color-stop(66%,rgba(17,17,17,1)), color-stop(69%,rgba(43,43,43,1)), color-stop(69%,rgba(43,43,43,1)), color-stop(91%,rgba(28,28,28,1)), color-stop(100%,rgba(19,19,19,1))); /* Chrome,Safari4+ */
-    /*background: -webkit-linear-gradient(top,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 8%,rgba(102,102,102,1) 22%,rgba(71,71,71,1) 30%,rgba(44,44,44,1) 40%,rgba(0,0,0,1) 49%,rgba(17,17,17,1) 66%,rgba(43,43,43,1) 69%,rgba(43,43,43,1) 69%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* Chrome10+,Safari5.1+ */
-    /*background: -o-linear-gradient(top,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 8%,rgba(102,102,102,1) 22%,rgba(71,71,71,1) 30%,rgba(44,44,44,1) 40%,rgba(0,0,0,1) 49%,rgba(17,17,17,1) 66%,rgba(43,43,43,1) 69%,rgba(43,43,43,1) 69%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* Opera 11.10+ */
-    /*background: -ms-linear-gradient(top,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 8%,rgba(102,102,102,1) 22%,rgba(71,71,71,1) 30%,rgba(44,44,44,1) 40%,rgba(0,0,0,1) 49%,rgba(17,17,17,1) 66%,rgba(43,43,43,1) 69%,rgba(43,43,43,1) 69%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* IE10+ */
-    /*background: linear-gradient(to bottom,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 8%,rgba(102,102,102,1) 22%,rgba(71,71,71,1) 30%,rgba(44,44,44,1) 40%,rgba(0,0,0,1) 49%,rgba(17,17,17,1) 66%,rgba(43,43,43,1) 69%,rgba(43,43,43,1) 69%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* W3C */
-    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */*/
-
-}
-.navbar-brand:hover .brand-img{
-    -webkit-transform:scale(1.5);
-    transition:all .1s ease-in-out;
-}
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-color: #C0C0C0;
-}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-color: #FFF;
-background: transparent;
-text-shadow:1px 1px 1px rgb(255,255,255);
+article span{
+    font-size: 1.5em;
 }
